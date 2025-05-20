@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Aplicaciones de Conversión y Cálculo</title>
+    
+</head>
+<body>
+    <h1>Conversor de Tiempo</h1>
+    <input type="number" id="horas" placeholder="Horas">
+    <input type="number" id="minutos" placeholder="Minutos">
+    <input type="number" id="segundos" placeholder="Segundos">
+    <button onclick="convertir()">Convertir a Segundos</button>
+    <p id="resultado"></p>
+
+    <hr>
+
+    <h1>Tabla de Multiplicar</h1>
+    <input type="number" id="numero" placeholder="Número del 1 al 10">
+    <button onclick="mostrarTabla()">Mostrar Tabla</button>
+    <div id="tabla"></div>
+
+    <hr>
+
+    <h1>Cálculo de Total con IVA</h1>
+    <input type="text" id="nombre" placeholder="Nombre del artículo">
+    <input type="number" id="precio" placeholder="Precio">
+    <input type="number" id="iva" placeholder="Porcentaje de IVA">
+    <button onclick="calcularTotal()">Calcular Total</button>
+    <p id="total"></p>
+
+    <script src="script.js"></script>
+       
+ 
+</body>
+</html>
